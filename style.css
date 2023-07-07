@@ -1,0 +1,114 @@
+body, .container-fluid{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+/* css for search query home page */
+.content{
+    justify-content: center;
+    padding-top: 12%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.name{
+    padding: 0px 0px 20px 0px;
+    font-size: 70px;
+    text-align: center;
+    color: #6a30e5;
+}
+.search_box{
+    padding: 20px 30% 20px 30%;
+    font-size: 20px;
+}
+#q{
+    border-radius: 25px;
+    width: 100%;
+    font-size: 25px;
+    border: 1px solid #d1d5e0;
+    padding-left: 25px;
+}
+.radio{
+    /* padding-left: 31%; */
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 1.58;
+    font-family: arial,sans-serif;
+    font-size: 17px;
+}
+#submit{
+    width: 150px;
+    padding: 5px 5px;
+    margin: 0px 17px;
+    border-radius: 25px;
+    margin-left: 35%;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 18px;
+}
+
+/* css for query results page */
+.results-head{
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+}
+.results-title a{
+    font-size: 25px;
+    text-align: left;
+    color: #6a30e5;
+    text-decoration: none;
+}
+.results-query{
+    font-size: 20px;
+    text-align: left;
+}
+.results-summary{
+    border-top: 0.5px solid #70757a;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: sans-serif, Arial, Helvetica;
+    color: #70757a;
+}
+.results-block{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+.results-record{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#results-urls{
+    font-size: 14px;
+    color: #202124;
+    text-decoration: none;
+}
+#results-title{
+    font-family: arial,sans-serif;
+    font-size: 20px;
+    text-decoration: None;
+}
+#results-id{
+    color: #4d5156;
+    line-height: 1.58;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+#results-description{
+    color: #4d5156;
+    line-height: 1.58;
+    font-family: arial,sans-serif;
+    font-size: 17px;
+}
+.spell-check{
+    font-size: 14px;
+    padding: 10px 0px;
+    color: #747272;
+}
